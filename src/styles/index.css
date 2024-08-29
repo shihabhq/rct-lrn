@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+}
+
+section {
+  margin-top: 2rem !important;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+svg {
+  width: 1.5rem;
+}
+
+.section-q {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: cyan;
+  border-radius: 9999px;
+  gap: 0.25rem;
+  align-items: center;
+  display: flex;
+  width: fit-content;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+.section-heading {
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(33, 33, 33);
+}
+.section-text {
+  width: 66.666667%;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(73, 73, 73);
+  text-align: center;
+}
+
+.work-card {
+  text-align: left;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  flex-basis: 25%;
+  max-width: 320px;
+  min-height: 220px;
+}
+
+.work-card img {
+  width: 48px;
+}
+
+.work-card h1 {
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(28, 28, 28);
+}
+.work-card p {
+  font-weight: 400;
+  color: rgb(73, 73, 73);
+}
