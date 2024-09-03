@@ -1,13 +1,8 @@
-const loggedIn = false;
-const loginStatus = loggedIn ? (
-  <h1>you are logged in</h1>
-) : (
-  <h1>You need to login</h1>
-);
-
+import "../styles/style.css";
+import Task from "./Tasks";
 
 function App() {
-  return <section>{loginStatus}</section>;
+  return <Task />;
 }
 
 export default App;
